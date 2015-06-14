@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">File Manager</string>
+    <string name="action_other_fileMgr">Open in other file manager</string>
+    <string name="action_show_hidden">Show hidden files</string>
+    <string name="action_hide_hidden">Hide hidden files</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_paste">Paset</string>
+    <string name="action_cut">Cut</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_new_file">New file</string>
+    <string name="action_new_directory">New directory</string>
+</resources>

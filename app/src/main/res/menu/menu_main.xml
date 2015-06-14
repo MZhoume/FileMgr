@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item android:id="@+id/action_toggle_hide"
+          android:title="@string/action_show_hidden"
+          android:icon="@android:drawable/ic_menu_view"
+          app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_paste"
+        android:title="@string/action_paste"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_new_file"
+        android:title="@string/action_new_file"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_new_directory"
+        android:title="@string/action_new_directory"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_other_filemgr"
+          android:title="@string/action_other_fileMgr"
+          app:showAsAction="never"/>
+</menu>
